@@ -1,0 +1,89 @@
+.sections{
+    display: flex;
+}
+.sectionsleft{
+   height: 760px;
+   width: 450px;
+}
+.sectionsright{
+    position: relative;
+    top: 250px;
+    left: 500px;
+}
+.sectionsrightformlap{
+ display: block;
+}
+.sectionsrightformlap1{
+    margin-bottom: 10px;
+    color:  white;
+}
+.sectionsrightcardinput{
+    border-radius: 5px;
+}
+.carform {
+    position: absolute;
+    background-color: #222831;
+    height: 450px;
+    width: 450px;
+    border-radius: 20px;
+    padding: 20px 40px;
+    top: -170px;
+}
+.carform1 {
+    background-color: #222831;
+    height: 291px;
+    width: 381px;
+    border-radius: 20px;
+    padding: 20px 40px;
+    text-align: center;
+    position: relative;
+
+}
+.sectionsrightbutton{
+    background-color: #21092F;
+    margin-top: 30px;
+    color: white;
+    border: none;
+    display: inline-block;
+   width:410px ;
+   height:53px ;
+   border-radius: 10px;
+}
+
+.sectionrightsimg{
+    position: absolute;
+    right: 315px;
+ 
+    top: -170px;
+    width: 541px;
+    height: 527px;
+}
+.sectionrightsimg1{
+    position: absolute;
+    top: -80px;
+    right: 800px;
+    width: 541px;
+    height: 527px;
+}
+.sectionrightsimg2{
+    margin-left: 200px;
+}
+.iconComplete{
+    position: absolute;
+    z-index: 99;
+    right: 430px;
+    top: 25px;
+}
+.sectionrightp{
+    position: absolute;
+    top: 102px;
+    left: 22px;
+    color: white;
+    
+}
+.sectionrightp1{
+    position: absolute;
+    top: 96px;
+    left: 534px;
+    color: white; 
+}
