@@ -6,8 +6,8 @@ const {
     height,
     type,
     placeholder,
-    cardholderName,
-    setCardholderName,
+    datacard,
+    setDatacard,
     name,
   } = props;
  
@@ -19,8 +19,8 @@ const {
         className={classes.sectionsrightcardinput}
         type={type}
         placeholder={placeholder}
-        value={cardholderName}
-        onChange={(event) => setCardholderName(event.target.value)}
+        value={datacard}
+        onChange={(event) => setDatacard(event.target.value)}
       />
      
     </div>

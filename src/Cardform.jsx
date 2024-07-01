@@ -32,8 +32,8 @@ function Cardform() {
                 <CardLabel name="Cardholder Name" />
                 <Input
                   name="cardholderName"
-                  setCardholderName={setCardholderName}
-                  cardholderName={cardholderName}
+                  setDatacard={setCardholderName}
+                  datacard={cardholderName}
                   placeholder="e.g Jane Appleseed"
                   type="text"
                   width={"400px"}
@@ -46,13 +46,12 @@ function Cardform() {
                 <CardLabel name=" Card Number" />
                 <Input
                   name="cardholdernumber"
-                  setCardholderName={setCardNumber}
-                  cardholderName={cardNumber}
+                  setDatacard={setCardNumber}
+                  datacard={cardNumber}
                   placeholder="e.g 123  5678 9123 0000"
                   type="text"
                   width={"400px"}
                   height={"37.17px"}
-                  {...register("cardholdernumber", { required: "Wrong format, number only" })}
                 />
               </div>
               <div style={{ marginTop: "35px" }}>
@@ -64,33 +63,33 @@ function Cardform() {
                 <div style={{ marginTop: "8px", display: "flex" }}>
                   <Input
                     name="mm"
-                    setCardholderName={setMm}
-                    cardholderName={mm}
+                    setDatacard={setMm}
+                    datacard={mm}
                     placeholder="mm"
                     type="text"
                     width={"80px"}
                     height={"45px "}
-                    {...register("mm", { required: "Wrong format, name only" })}
+                  
                   />
                   <Input
                     name="yy"
-                    setCardholderName={setYy}
-                    cardholderName={yy}
+                    setDatacard={setYy}
+                    datacard={yy}
                     placeholder="yy"
                     type="text"
                     width={"80px"}
                     height={"45px "}
-                    {...register("yy", { required: "Wrong format, name only" })}
+                  
                   />
                   <Input
                     name="CGV"
-                    setCardholderName={setCgv}
-                    cardholderName={cgv}
+                    setDatacard={setCgv}
+                    datacard={cgv}
                     placeholder="e.g 123"
                     type="text"
                     width={"191px"}
                     height={"45px "}
-                    {...register("CGV", { required: "Wrong format, name only" })}
+            
                   />
                 </div>
               </div>
