@@ -52,6 +52,8 @@ function Cardform() {
                   type="text"
                   width={"400px"}
                   height={"37.17px"}
+                  register={register}
+                  errors={errors}
                 />
               </div>
               <div style={{ marginTop: "35px" }}>
@@ -69,6 +71,8 @@ function Cardform() {
                     type="text"
                     width={"80px"}
                     height={"45px "}
+                    register={register}
+                    errors={errors}
                   
                   />
                   <Input
@@ -79,6 +83,8 @@ function Cardform() {
                     type="text"
                     width={"80px"}
                     height={"45px "}
+                    register={register}
+                    errors={errors}
                   
                   />
                   <Input
@@ -89,6 +95,8 @@ function Cardform() {
                     type="text"
                     width={"191px"}
                     height={"45px "}
+                    register={register}
+                    errors={errors}
             
                   />
                 </div>
